@@ -1,0 +1,190 @@
+/* Responsive CSS */
+
+@media (max-width: 767px) {
+  .landing-page .content {
+    grid-template-columns: repeat(1, 100%);
+    margin-bottom: 50px;
+  }
+  .content .txt-desc {
+    width: 100%;
+    margin-block-end: 40px;
+  }
+  .txt-desc h1 {
+    font-size: 30px;
+  }
+
+  .content .txt-desc .btn-main {
+    text-align: center;
+  }
+
+  /* Section Flight */
+  .flight .products .product {
+    grid-template-columns: repeat(2, auto);
+    padding-inline: 50px;
+  }
+  .flight .widget .widget-list ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .flight .widget .widget-list ul li {
+    border: 1px solid #ddd;
+  }
+  .flight .widget .widget-search {
+    display: none;
+  }
+  .destination .container .cards {
+    padding: 20px 200px;
+  }
+}
+/* 
+===================================
+ MEdia Secreen 992px
+===================================
+*/
+@media (max-width: 992px) {
+  .header .container .hamborger {
+    display: block;
+  }
+  /* About Section */
+  .about-us .travel .container .row {
+    grid-template-columns: auto;
+  }
+  /* Guiddes Section */
+  .guides .main .content .row {
+    grid-template-columns: repeat(1, auto);
+  }
+  .products .product {
+    grid-template-columns: repeat(3, auto);
+    padding-inline: 80px;
+  }
+  /* Section Flight */
+  .flight .widget .widget-list ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .flight .widget .widget-list ul li {
+    border: 1px solid #ddd;
+  }
+  .flight .widget .widget-search {
+    display: none;
+  }
+  .destination .container .cards {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 1495px) {
+  .content .img-box {
+    width: 100%;
+  }
+  .navbar .nav-items {
+    position: absolute;
+    left: -1500px;
+    top: 100px;
+    width: 100%;
+    align-items: start;
+    flex-direction: column;
+    background: #f1f1f1;
+    padding: 40px;
+    z-index: 10;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+  }
+  .navbar .nav-items .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .header .container .hamborger {
+    display: block;
+  }
+  .content .txt-desc {
+    width: 100%;
+    margin-block-end: 40px;
+    text-align: center;
+    margin: auto;
+  }
+  .txt-desc .img-box {
+    width: 100%;
+  }
+  .landing-page .content {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .memories .box-content h1 {
+    font-size: 35px;
+  }
+  .memories .box-content p {
+    font-size: 0.8rem;
+  }
+  /* Top destination  */
+  .wrapper-destination .row .cols-6 {
+    grid-template-columns: auto;
+  }
+  .wrapper-destination .row .cols-3 {
+    grid-template-columns: auto;
+  }
+  /* Guides Section */
+  .guides .content .row {
+    grid-template-columns: repeat(2, auto);
+  }
+  /* About Section */
+  .main-about .container .row {
+    grid-template-columns: auto;
+  }
+  .main-about .txt-desc {
+    padding-top: 30px;
+  }
+  .feedbacks .container .row {
+    grid-template-columns: auto;
+  }
+  .travel .container .row {
+    grid-template-columns: repeat(2, auto);
+  }
+  /* Section Fliaght  */
+  .booking-flight .booking-banner {
+    grid-template-columns: auto;
+    
+  }
+  .booking-flight .booking-banner .booking-desc h1 {
+    font-size: 3rem;
+  }
+  .booking-flight {
+    margin-bottom: 200px;
+  }
+  .products .product {
+    grid-template-columns: repeat(3, auto);
+    padding-inline: 150px;
+  }
+  .flight .widget .widget-list ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .flight .widget .widget-list ul li {
+    border: 1px solid #ddd;
+  }
+  .flight .widget .widget-search {
+    display: none;
+  }
+  .destination .cards {
+    grid-template-columns: repeat(2, auto);
+    padding: 20px 200px;
+  }
+  /* Footer Section */
+  footer .container .row {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+  }
+  footer .col .content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+  footer .drop-msg .input-box input {
+    width: 100%;
+  }
+  .newsletter .subscribe {
+    width: 80%;
+  }
+  .newsletter .subscribe h1 {
+    font-size: 2rem;
+  }
+}
