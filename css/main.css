@@ -1463,3 +1463,31 @@ footer .drop-msg .input-box .btn-main a {
     width: 100%;
     
   }
+/* Section about  */
+.about {
+  padding-block: 100px;
+}
+.about .row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.banner-img {
+  width: 100%;
+}
+.banner-img img {
+  width: 100%;
+}
+.about .txt-desc h5{
+  font-size: 1.5rem;
+  color: var(--clr-orange);
+}
+.about .txt-desc h1 {
+  font-size: 50px;
+  margin-block: 30px;
+}
+.about .txt-desc p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
